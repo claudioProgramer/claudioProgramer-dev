@@ -1,0 +1,81 @@
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+.navbar {
+
+    width: 100%;
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 10%;
+
+    border-bottom: 1px solid var(--border-color);
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.4s;
+}
+
+/* ========================= */
+/* NAVBAR SCROLL EFFECT */
+/* ========================= */
+
+.navbar-scroll {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    background: rgba(5, 10, 30, 0.85);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+
+    padding: 18px 10%;
+    
+    box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15);
+}
+
+body.navbar-active {
+
+    padding-top: 80px;
+}
+
+
+.logo {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: white;
+}
+
+
+.nav-links {
+
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+}
+
+
+.nav-links a {
+
+    text-decoration: none;
+
+    color: var(--text-secondary);
+
+    transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+
+    color: white;
+}

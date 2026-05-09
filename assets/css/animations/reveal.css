@@ -1,0 +1,24 @@
+/* ========================= */
+/* REVEAL ANIMATION */
+/* ========================= */
+
+.reveal {
+
+    opacity: 0;
+
+    transform: translateY(80px);
+
+    transition: all 1s ease;
+}
+
+
+/* ========================= */
+/* ACTIVE REVEAL */
+/* ========================= */
+
+.reveal.active {
+
+    opacity: 1;
+
+    transform: translateY(0);
+}

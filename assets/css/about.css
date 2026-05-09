@@ -1,0 +1,116 @@
+/* ========================= */
+/* ABOUT SECTION */
+/* ========================= */
+
+.about {
+
+    padding: 60px 20px;
+}
+
+
+/* ========================= */
+/* ABOUT CONTAINER */
+/* ========================= */
+
+.about-container {
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+    width: 100%;
+
+    display: grid;
+}
+
+
+/* ========================= */
+/* ABOUT TEXT */
+/* ========================= */
+
+.about-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+
+.about-text p {
+
+    color: var(--text-secondary);
+
+    line-height: 1.9;
+
+    font-size: 1.05rem;
+}
+
+
+/* ========================= */
+/* TIMELINE */
+/* ========================= */
+
+.timeline {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+
+/* ========================= */
+/* TIMELINE ITEM */
+/* ========================= */
+
+.timeline-item {
+
+    background: rgba(255,255,255,0.03);
+
+    border: 1px solid var(--border-color);
+
+    border-left: 4px solid var(--primary-color);
+
+    border-radius: 18px;
+
+    padding: 30px;
+
+    transition: 0.4s;
+}
+
+
+.timeline-item:hover {
+
+    transform: translateX(10px);
+
+    box-shadow: 0 10px 40px rgba(124, 58, 237, 0.2);
+}
+
+
+.timeline-item span {
+
+    color: var(--primary-color);
+
+    font-size: 0.9rem;
+
+    letter-spacing: 1px;
+}
+
+
+.timeline-item h3 {
+
+    margin: 15px 0;
+
+    font-size: 1.3rem;
+}
+
+
+.timeline-item p {
+
+    color: var(--text-secondary);
+
+    line-height: 1.7;
+}

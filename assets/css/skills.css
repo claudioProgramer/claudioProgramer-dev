@@ -1,0 +1,118 @@
+/* ========================= */
+/* SECTION TITLE */
+/* ========================= */
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+
+.section-title p {
+
+    color: var(--primary-color);
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+
+.section-title h2 {
+
+    font-size: 2.5rem;
+}
+
+
+/* ========================= */
+/* SKILLS SECTION */
+/* ========================= */
+
+.skills {
+
+    padding: 120px 10%;
+}
+
+
+/* ========================= */
+/* SKILLS GRID */
+/* ========================= */
+
+.skills-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+}
+
+
+/* ========================= */
+/* SKILL CARD */
+/* ========================= */
+
+.skill-card {
+
+    background: rgba(255,255,255,0.03);
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 20px;
+
+    padding: 40px 30px;
+
+    transition: 0.4s;
+
+    backdrop-filter: blur(10px);
+}
+
+
+.skill-card:hover {
+
+    transform: translateY(-10px);
+
+    border-color: rgba(124, 58, 237, 0.5);
+
+    box-shadow: 0 10px 40px rgba(124, 58, 237, 0.2);
+}
+
+
+/* ========================= */
+/* ICONOS */
+/* ========================= */
+
+.skill-card i {
+
+    font-size: 3rem;
+
+    margin-bottom: 25px;
+
+    color: var(--primary-color);
+}
+
+
+/* ========================= */
+/* TITULO CARD */
+/* ========================= */
+
+.skill-card h3 {
+
+    margin-bottom: 20px;
+
+    font-size: 1.4rem;
+}
+
+
+/* ========================= */
+/* TEXTO CARD */
+/* ========================= */
+
+.skill-card p {
+
+    color: var(--text-secondary);
+
+    line-height: 1.7;
+}

@@ -1,0 +1,155 @@
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .hero {
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        text-align: center;
+
+        padding-top: 80px;
+    }
+
+    .hero-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content h1 {
+
+        font-size: 3rem;
+    }
+
+    .hero-description {
+
+        max-width: 100%;
+    }
+
+    .about-container {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .nav-links {
+
+        gap: 20px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .hero {
+
+        padding: 60px 8%;
+    }
+
+    .hero-content h1 {
+
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+
+        font-size: 1rem;
+
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+
+        width: 100%;
+    }
+
+    .about {
+
+        padding: 80px 5%;
+    }
+
+    .about-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .timeline-item {
+
+        padding: 20px;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+
+        font-size: 0.9rem;
+    }
+
+    .logo {
+
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+
+        font-size: 0.9rem;
+    }
+
+    .about {
+
+        padding: 60px 5%;
+    }
+
+    .about-container {
+
+        gap: 25px;
+    }
+
+    .timeline-item {
+
+        padding: 15px;
+        border-left-width: 3px;
+    }
+
+    .timeline-item h3 {
+
+        font-size: 1.1rem;
+    }
+
+}
