@@ -33,6 +33,8 @@ GitHub Pages
 Repomix
 
 📁 Estructura del Proyecto
+
+```
 personal-portfolio/
 │
 ├── index.html
@@ -55,6 +57,7 @@ personal-portfolio/
 │
 ├── STRUCTURE.md
 └── README.md
+```
 
 ⚙️ Funcionalidades Principales
 🎨 UI Moderna
